@@ -46,12 +46,16 @@ Initially, I installed an application called Wireshark. Wireshark functions as a
 In this context, I employed PowerShell to initiate a ping towards the private IP address of my secondary virtual machine. This action was intended to establish connectivity and generate ICMP traffic, enabling observation and analysis within Wireshark.
 </p>
 <br />
-  
   <p>
-<img src="https://i.imgur.com/mtkGa1j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YwBujZX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The non stop ping has now been timed out because of the rule that I created which is now not a request, reply but is not just a request with no replies.
+Subsequently, within the Azure interface, I navigated to the Network Security Group (NSG) settings of my second virtual machine. Here, I implemented a rule specifically designed to prohibit communication originating from other machines, thereby restricting incoming interactions.
+  <p>
+<img src="https://i.imgur.com/eDmYzZL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The continuous ping has ceased due to the implementation of the rule I established. Consequently, the communication pattern has shifted from the usual request-and-reply format to solely outgoing requests without receiving any corresponding replies.
 </p>
 <br />
 

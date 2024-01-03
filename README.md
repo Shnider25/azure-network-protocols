@@ -19,7 +19,7 @@ In this tutorial, we explore different network traffic involving Azure Virtual M
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (22H2)
-- Ubuntu Server 20.04
+- Ubuntu Server 22.04
 
 <h2>High-Level Steps</h2>
 

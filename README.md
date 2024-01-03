@@ -36,8 +36,7 @@ In this tutorial, we explore different network traffic involving Azure Virtual M
 <img src="https://i.imgur.com/d0HTJ2Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I had recently installed an app name Wireshark, wireshark is a protocol analayzer which allows you to look at the traffic thats being generated and coming through as it goes.
-</p>
+Initially, I installed an application called Wireshark. Wireshark functions as a protocol analyzer, providing the capability to inspect the generated traffic and its flow.
 <br />
 
 <p>

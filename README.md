@@ -43,7 +43,7 @@ Initially, I installed an application called Wireshark. Wireshark functions as a
 <img src="https://i.imgur.com/G4Fi5k8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here I used Powershell to ping my second virtual machine's private IP address to get some connectivity to get some traffic going under ICMP to observe on Wireshark.
+In this context, I employed PowerShell to initiate a ping towards the private IP address of my secondary virtual machine. This action was intended to establish connectivity and generate ICMP traffic, enabling observation and analysis within Wireshark.
 </p>
 <br />
   

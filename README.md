@@ -60,10 +60,10 @@ The continuous ping has ceased due to the implementation of the rule I establish
 <br />
 
 <p>
-<img src="https://i.imgur.com/NfsaXQQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tbA9jwB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this step, I am going to SSH( secure shell) into my second virtual machine via my first virtual machine using powershell!
+In this step, I use PowerShell to SSH (Secure Shell) from my first virtual machine into the second virtual machine, establishing a secure connection between the two.
 </p>
 <br />
 

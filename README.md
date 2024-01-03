@@ -27,9 +27,8 @@ In this tutorial, we explore different network traffic involving Azure Virtual M
 - Step 2- Use Powershell
 - Step 3- Creating a NSG rule
 - Step 4- Request timed out
-- Step 5- SSH Protocol
-- Step 6- SSH Traffic
-- Step 7- DNS Protocol
+- Step 5- SSH Protocol/SSH Traffic
+- Step 6- DNS Protocol
 <h2>Actions and Observations</h2>
 
 <p>
@@ -63,22 +62,17 @@ The continuous ping has ceased due to the implementation of the rule I establish
 <img src="https://i.imgur.com/tbA9jwB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this step, I use PowerShell to SSH (Secure Shell) from my first virtual machine into the second virtual machine, establishing a secure connection between the two.
+In this step, I use PowerShell to SSH (Secure Shell) from my first virtual machine into the second virtual machine, establishing a secure connection between the two, and Icreated some traffic to inspect for SSH
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/3LfHa4s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Here I was creatign some traffic to inspect for SSH.
-</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/d4hehWO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Pk6W7Nv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here I am basically asking DNS(domain name system) what's google's IP address.
+Here I am basically asking DNS(domain name system) what's google's and Disney's IP address.
 </p>
 <br />
